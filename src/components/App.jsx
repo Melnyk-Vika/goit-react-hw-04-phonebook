@@ -42,7 +42,6 @@ export const App = () => {
     setContacts(prevContacts =>
       prevContacts.filter(contact => contact.id !== id)
     );
-    setFilter('');
   };
 
   const changeInput = e => {
